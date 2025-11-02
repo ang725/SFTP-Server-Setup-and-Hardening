@@ -58,6 +58,7 @@ sudo ss -tlnp | grep ssh
     - ``n`` → Displays **numeric** addresses instead of hostnames
     - ``p`` → Shows **process names** using sockets
     - ``| grep ssh`` → Filters results to only show SSH processes
+
 ![alt text](images/ss_tlnp_ss.PNG)
 
 On your client machine, confirm that the server is only accessible using the **new custom port**.
